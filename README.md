@@ -14,7 +14,7 @@ The course is taught in English with subtitles in Spanish, Hindi, Japanese, and 
 
 
 ### Octave
-To install from the command line, follow the [link](https://www.gnu.org/software/octave/) for more details about installation. Once the installation is complete, any additional packages (nnet, statistics) can be installed from the prompt with the following commands
+Follow the [link](https://www.gnu.org/software/octave/) for more details about installation. Once the installation is complete, any additional [packages](https://octave.sourceforge.io/packages.php) (e.g., nnet, statistics, nan) can be installed from the prompt with the following commands
 ```
 pkg install -forge package_name
 ```
@@ -40,6 +40,7 @@ title ("Simple 2-D Plot");
 xlabel ("x");
 ylabel ("sin (x)");
 ```
+![Simple 2-D Plot](https://github.com/Hosini/CourseraMachineLearning/tree/master/Supplements/example-plot.svg)
 
 ## Authors
 
