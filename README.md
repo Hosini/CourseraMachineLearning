@@ -40,7 +40,7 @@ title ("Simple 2-D Plot");
 xlabel ("x");
 ylabel ("sin (x)");
 ```
-![Simple 2-D Plot](https://github.com/Hosini/CourseraMachineLearning/tree/master/Supplements/example-plot.svg)
+![Simple 2-D Plot](https://raw.github.com/Hosini/CourseraMachineLearning/tree/master/Supplements/example-plot.svg)
 
 ## Authors
 
