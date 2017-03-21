@@ -15,31 +15,31 @@ The course is taught in English with subtitles in Spanish, Hindi, Japanese, and 
 
 ### Octave
 To install from the command line, follow the [link](https://www.gnu.org/software/octave/) for more details about installation. Once the installation is complete, any additional packages (nnet, statistics) can be installed from the prompt with the following commands
-'''
+```
 pkg install -forge package_name
-'''
+```
 Once installed, the package must be loaded to use
-'''
-pkg load package_name
-'''
 
+```
+pkg load package_name
+```
 Example code is given below
-'''
+```
 b = [4; 5; 6];      # Define columen vector. Include to semicolon to supress output
 A = [1 2 3;
      4 5 6;
      7 8 9];
 x = A\b             # Solve system Ax=b
-'''
+```
 A simply plotting example:
-'''
+```
 x = -10:0.1:10; # Create an evenly-spaced vector from -10..10
 y = sin (x);    # y is also a vector
 plot (x, y);
 title ("Simple 2-D Plot");
 xlabel ("x");
 ylabel ("sin (x)");
-'''
+```
 
 ## Authors
 
